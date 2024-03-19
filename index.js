@@ -10,7 +10,7 @@ app.use(express.json())
 app.use(cors())
 app.use('/api',rout) //http://localhost:2718/api/
 
-mongoose.connect('mongodb+srv://sjhruthran28:063uOKtQfsYw2M4k@cluster0.5z1rbiy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0').then(()=>{
+mongoose.connect('mongodb+srv://jo214841:0ZpivnAfAY3nGu9P@cluster0.tv57fgu.mongodb.net/bus').then(()=>{
     app.listen(2718)
     console.log('db connect')
 })
